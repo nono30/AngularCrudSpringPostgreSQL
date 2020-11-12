@@ -1,6 +1,6 @@
-export class Persona{
+export class Persona {
 
-  id:number;
-  name:String;
-  apellidos:String;
+  idPersona: number;
+  nombre: string;
+  apellidos: string;
 }

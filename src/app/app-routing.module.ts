@@ -5,9 +5,10 @@ import { EditComponent } from './Persona/edit/edit.component';
 import { ListarComponent } from './Persona/listar/listar.component';
 
 const routes: Routes = [
-  {path:'listar', component:ListarComponent},
-  {path:'add', component:AddComponent},
-  {path:'edit', component:EditComponent}
+  { path: 'listar', component: ListarComponent },
+  { path: 'add', component: AddComponent },
+  { path: 'edit', component: EditComponent },
+  { path: '**', redirectTo: 'listar', pathMatch: 'full' }
 ];
 
 @NgModule({
